@@ -3,8 +3,9 @@ import { Button, Navbar, Container, Tabs } from "react-bootstrap";
 import { connect } from "react-redux";
 import { loginTab, todoTab, tweetsTab } from "../helpers";
 import { logoutStarted } from "../actions/login";
+import { changeTab } from "../actions/application";
 
-function Header({ loggedIn, activeTab, logoutStarted }) {
+function Header({ loggedIn, activeKey, logoutStarted, changeTab }) {
   return (
     <div>
       <Navbar bg="light" expand="lg">
@@ -19,10 +20,15 @@ function Header({ loggedIn, activeTab, logoutStarted }) {
       </Navbar>
       <br />
       <Container>
-        <Tabs activeKey={activeTab} transition={false} id="noanim-tab-example">
-          {loginTab(loggedIn, activeTab)}
-          {todoTab(loggedIn, activeTab)}
-          {tweetsTab(loggedIn, activeTab)}
+        <Tabs
+          activeKey={activeKey}
+          transition={false}
+          id="noanim-tab-example"
+          onSelect={changeTab}
+        >
+          {loginTab(loggedIn)}
+          {todoTab(loggedIn)}
+          {tweetsTab(loggedIn)}
         </Tabs>
       </Container>
     </div>
@@ -30,11 +36,12 @@ function Header({ loggedIn, activeTab, logoutStarted }) {
 }
 
 const mapStateToProps = ({ application }) => {
-  const { loggedIn, activeTab } = application;
-  return { loggedIn, activeTab };
+  const { loggedIn, activeKey } = application;
+  return { loggedIn, activeKey };
 };
 
 const mapDispatchToProps = {
   logoutStarted,
+  changeTab,
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Header);

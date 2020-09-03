@@ -2,7 +2,7 @@ import { types } from "../actions";
 
 const initState = {
   loggedIn: false,
-  activeTab: "login",
+  activeKey: "login",
 };
 
 export default (state = initState, action) => {
@@ -10,13 +10,18 @@ export default (state = initState, action) => {
     case types.LOGIN_STARTED:
       return {
         loggedIn: true,
-        activeTab: "todos",
+        activeKey: "todos",
       };
     case types.LOGOUT_STARTED:
       return {
         loggedIn: false,
-        activeTab: "login",
+        activeKey: "login",
       };
+      case types.CHANGE_TABS:
+        return {
+          loggedIn: true,
+          activeKey: action.activeKey,
+        };
     default:
       return state;
   }

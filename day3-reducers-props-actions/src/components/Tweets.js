@@ -11,7 +11,6 @@ function Tweets({tweets, tweeter}) {
 }
 
 const mapStateToProps = ({login, tweets}) => {
-    console.log(login)
     return {
         tweets, 
         get tweeter() {

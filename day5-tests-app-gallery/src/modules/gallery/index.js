@@ -1,0 +1,13 @@
+const GALLERY_DATA_LOAD = "GALLERY_DATA_LOAD"
+const GALLERY_DATA_SET = "GALLERY_DATA_SET"
+const ERROR_SHOW = "ERROR_SHOW"
+const ERROR_HIDE = "ERROR_HIDE"
+
+const types = {
+    GALLERY_DATA_LOAD,
+    GALLERY_DATA_SET,
+    ERROR_SHOW,
+    ERROR_HIDE
+}
+
+export default types

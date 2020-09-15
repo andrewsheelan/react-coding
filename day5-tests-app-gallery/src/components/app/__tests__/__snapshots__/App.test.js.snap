@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="app"
+  data-testid="app"
+>
+  <div
+    className="gallery"
+  >
+    <div
+      className="gallery-error error"
+    >
+      
+    </div>
+    <div
+      className="gallery-loading"
+    >
+      
+    </div>
+    <div
+      className="gallery-photos"
+    />
+  </div>
+</div>
+`;

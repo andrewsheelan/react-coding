@@ -22,7 +22,7 @@ const initialState = {
 const store = mockStore(initialState);
 
 it("renders correctly", () => {
-  const { queryByTestId } = render(
+  const { queryByTestId, } = render(
     <Provider store={store}>
       <App />
     </Provider>

@@ -1,1 +1,3 @@
-export const ENDPOINT = "http://localhost:9000/v2/list"
+import { HOST } from "../../redux/constants";
+
+export const ENDPOINT = `${HOST}/v2/list`

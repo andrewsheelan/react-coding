@@ -1,17 +1,17 @@
-# Run with 
+###  Run with 
 
 ```
 npm run dev
 ```
 
-###To add watch and code coverage to test, include in package.json:
+### To add watch and code coverage to test, include in package.json:
 
 ```
     "test": "react-scripts test --watchAll --coverage",
 ```
 
 
-###To ignore code coverage on certain pages:
+### To ignore code coverage on certain pages:
 
 ```
   "jest": {
@@ -24,7 +24,7 @@ npm run dev
 ```
 
 
-###To test Saga files - add the following global:
+### To test Saga files - add the following global:
 
 ```
 global.recordSaga = async function(saga, state, sagaArguments) {
@@ -53,7 +53,7 @@ Eg.
 
 
 
-###To add connect API Mock Server using connect-api-mocker:
+### To add connect API Mock Server using connect-api-mocker:
 
 https://blog.harveydelaney.com/setting-up-a-mock-api-for-your-front-end-react-project/
 

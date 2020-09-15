@@ -61,3 +61,6 @@ https://blog.harveydelaney.com/setting-up-a-mock-api-for-your-front-end-react-pr
 
 
 ### To mock redux store: redux-mock-store
+
+
+### Uses https://picsum.photos/ for the server API

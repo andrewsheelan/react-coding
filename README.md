@@ -4,6 +4,9 @@ References:
 
 ### Day1: Introduction to Hooks
 
+[More details here.](day1-react-hooks)
+
+
 https://reactjs.org/docs/hooks-reference.html
 
 ### Day2: Redux getting started

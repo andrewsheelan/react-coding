@@ -7,8 +7,9 @@ References:
 https://reactjs.org/docs/hooks-reference.html
 
 
-[More details here.](day1-react-hooks)
+[-----More details here.-----](day1-react-hooks)
 
+-------
 
 ### Day2: Redux getting started
 
@@ -18,7 +19,9 @@ https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfk
 
 https://github.com/zalmoxisus/redux-devtools-extension
 
-[More details here.](day2-redux-basics)
+[-----More details here.-----](day2-redux-basics)
+
+-------
 
 ### Day3: Reducers / Actions / Index DB
 
@@ -52,18 +55,21 @@ Other Libraries:
 
 https://lodash.com/
 
-[More details here.](day3-reducers-props-actions)
+[-----More details here.-----](day3-reducers-props-actions)
 
+-------
 
 ### Day4: Introduction to Redux-Saga
 
 ![Optional Text](day4-saga-sample-app-nu-notes/public/screenshot1.png)
 ![Optional Text](day4-saga-sample-app-nu-notes/public/screenshot2.png)
 
-[More details here.](day4-saga-sample-app-nu-notes)
+[-----More details here.-----](day4-saga-sample-app-nu-notes)
+
+-------
 
 ### Day5: Introduction to Tests 
 
 ![Optional Text](day5-tests-app-gallery/public/screenshot.png)
 
-[More details here.](day5-tests-app-gallery)
+[-----More details here.-----](day5-tests-app-gallery)

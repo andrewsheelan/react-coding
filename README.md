@@ -3,9 +3,11 @@ A code walkthough
 
 References:
 
-Day1: https://reactjs.org/docs/hooks-reference.html
+### Day1: Introduction to Hooks
 
-Day2: Redux getting started
+https://reactjs.org/docs/hooks-reference.html
+
+### Day2: Redux getting started
 
 https://redux.js.org/introduction/getting-started
 
@@ -15,7 +17,7 @@ https://github.com/zalmoxisus/redux-devtools-extension
 
 [More details here.](day2-redux-basics)
 
-Day3: Reducers / Actions / Index DB
+### Day3: Reducers / Actions / Index DB
 
 ![Optional Text](day3-reducers-props-actions/public/screenshot.png)
 
@@ -50,14 +52,14 @@ https://lodash.com/
 [More details here.](day3-reducers-props-actions)
 
 
-Day4: Introduction to Redux-Saga
+### Day4: Introduction to Redux-Saga
 
 ![Optional Text](day4-saga-sample-app-nu-notes/public/screenshot1.png)
 ![Optional Text](day4-saga-sample-app-nu-notes/public/screenshot2.png)
 
 [More details here.](day4-saga-sample-app-nu-notes)
 
-Day5: Introduction to Tests 
+### Day5: Introduction to Tests 
 
 ![Optional Text](day5-tests-app-gallery/public/screenshot.png)
 

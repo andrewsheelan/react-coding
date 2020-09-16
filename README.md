@@ -1,5 +1,4 @@
-# react-coding
-A code walkthough
+# React Coding - A code walkthough
 
 References:
 
@@ -39,7 +38,7 @@ https://pouchdb.com/
 
 https://github.com/vicentedealencar/redux-pouchdb
 
-getter and setters in JS:
+getters and setters in JS:
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
 

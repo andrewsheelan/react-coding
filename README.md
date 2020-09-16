@@ -17,6 +17,8 @@ https://github.com/zalmoxisus/redux-devtools-extension
 
 Day3:
 
+![Optional Text](day3-reducers-props-actions/public/screenshot.png)
+
 Combine Reducers:
 
 https://redux.js.org/api/combinereducers
@@ -44,3 +46,15 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set
 Other Libraries:
 
 https://lodash.com/
+
+
+Day4:
+![Optional Text](day4-saga-sample-app-nu-notes/public/screenshot1.png)
+![Optional Text](day4-saga-sample-app-nu-notes/public/screenshot2.png)
+
+[More details here.](day4-saga-sample-app-nu-notes)
+
+Day5:
+![Optional Text](day5-tests-app-gallery/public/screenshot.png)
+
+[More details here.](day5-tests-app-gallery)

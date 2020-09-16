@@ -1,3 +1,8 @@
+![Optional Text](public/screenshot1.png)
+
+![Optional Text](public/screenshot2.png)
+
+
 ### Font used:
 - comic-sans-ms
 - material icons

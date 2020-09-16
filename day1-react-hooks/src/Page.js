@@ -7,7 +7,7 @@ export default function Page() {
     const pageDataRef = useRef("")
     
     useEffect(() => {
-        const myNewList = JSON.parse(localStorage.getItem('ITEMS'));
+        const myNewList = JSON.parse(localStorage.getItem('ITEMS')) || [];
         setMyList(myNewList)
     }, [])
 

@@ -32,7 +32,7 @@ export default function Page() {
     }
 
     return <div>
-        {myList.map(item => <Item {...item} key={item.id} toggleChecked={toggleChecked}/>)}
+        {myList && myList.map(item => <Item {...item} key={item.id} toggleChecked={toggleChecked}/>)}
         <input type="text" ref={pageDataRef} />
         <button onClick={addToList}>Add</button>
     </div>
